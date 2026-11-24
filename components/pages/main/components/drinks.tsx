@@ -10,7 +10,7 @@ const drinks = [
 
 export default function Drinks() {
   return (
-    <section className="mx-auto max-w-7xl px-10 py-16">
+    <section id="menu" className="mx-auto max-w-7xl scroll-mt-4 px-10 py-16">
       <h2 className="text-center font-playfair text-5xl font-bold text-brown md:text-6xl">Enjoy a new blend of coffee style</h2>
       <p className="mt-4 text-center font-playfair text-lg text-muted">
         Explore all flavours of coffee with us. There is always a new cup worth experiencing
@@ -25,7 +25,7 @@ export default function Drinks() {
               <h3 className="font-playfair text-xl font-bold text-brown">{d.name}</h3>
               <p className="mt-2 text-sm text-foreground">Coffee 50% | Milk 50%</p>
               <p className="mt-1 font-playfair text-lg font-bold text-brown">$8.50</p>
-              <Button className="mt-4">Order Now</Button>
+              <Button href="#subscribe" className="mt-4">Order Now</Button>
             </div>
           </article>
         ))}

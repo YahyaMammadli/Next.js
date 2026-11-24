@@ -50,7 +50,7 @@ const features: { title: string; text: string; icon: ReactNode }[] = [
 
 export default function Features() {
   return (
-    <section className="mx-auto max-w-7xl px-10 py-16 text-center">
+    <section id="features" className="mx-auto max-w-7xl px-10 py-16 text-center">
       <h2 className="font-playfair text-5xl font-bold text-brown md:text-6xl">Why are we different?</h2>
       <p className="mt-4 font-playfair text-lg text-muted">We don&apos;t just make your coffee, we make your day!</p>
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

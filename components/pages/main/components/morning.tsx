@@ -15,7 +15,7 @@ export default function Morning() {
           <p className="my-8 max-w-sm font-playfair text-xl">
             We are giving you are one time opportunity to experience a better life with coffee.
           </p>
-          <Button>Order Now</Button>
+          <Button href="#menu">Order Now</Button>
         </div>
         <div className="flex justify-center">
           <Image src="/cup.png" alt="Takeaway coffee cup" width={420} height={420} className="h-auto w-full max-w-sm" />

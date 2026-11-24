@@ -8,6 +8,7 @@ export default function Subscribe() {
 
   return (
     <section
+      id="subscribe"
       className="bg-[#5c3510] bg-cover bg-center px-10 py-20 text-center text-white"
       style={{ backgroundImage: "linear-gradient(rgba(92,53,16,.85), rgba(92,53,16,.85)), url('/coffee_bean.png')" }}
     >

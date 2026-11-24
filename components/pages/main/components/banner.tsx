@@ -3,6 +3,7 @@ import Button from "@/components/ui/button";
 export default function Banner() {
   return (
     <section
+      id="home"
       className="relative flex h-screen items-center bg-cover bg-center"
       style={{ backgroundImage: "url('/coffee_image.png')" }}
     >
@@ -16,7 +17,7 @@ export default function Banner() {
         <p className="mb-8 max-w-md font-playfair text-sm text-white/90 md:text-base">
           It is best to start your day with a cup of coffee. Discover the best flavours coffee you will ever have. We provide the best for our customers.
         </p>
-        <Button>Order Now</Button>
+        <Button href="#menu">Order Now</Button>
       </div>
     </section>
   );

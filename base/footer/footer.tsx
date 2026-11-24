@@ -6,7 +6,7 @@ const socials = ["Facebook", "Instagram", "YouTube", "Twitter"];
 
 export default function Footer() {
   return (
-    <footer className="bg-[#4a2a0b] px-10 py-16 text-white">
+    <footer id="contact" className="bg-[#4a2a0b] px-10 py-16 text-white">
       <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-[2fr_1fr_1fr_1.5fr]">
         <div>
           <p className="font-logo text-5xl">Bean Scene</p>
